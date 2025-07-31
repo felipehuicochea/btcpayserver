@@ -3,6 +3,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.Extensions.Configuration;
 
+using System.IO;
+
 namespace BTCPayServer.Plugins.SimpleSwap.Services
 {
     public class SimpleSwapPluginDbContextFactory : IDesignTimeDbContextFactory<SimpleSwapPluginDbContext>
